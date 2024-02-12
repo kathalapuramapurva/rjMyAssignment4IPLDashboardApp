@@ -1,0 +1,37 @@
+.main-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.style-logo {
+  width: 30px;
+  height: 40px;
+  margin-right: 10px;
+}
+.style-ipl-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 30px;
+  font-weight: bold;
+}
+.team-cards-container {
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}

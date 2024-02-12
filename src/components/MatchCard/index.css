@@ -1,0 +1,42 @@
+.match-card-content {
+  list-style-type: none;
+  background-color: #1e293b;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 48%;
+  height: 250px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.match-card-image {
+  width: 40px;
+  height: 40px;
+}
+.match-card-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 15px;
+  font-weight: 500;
+}
+.match-card-result {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 10px;
+  font-weight: 500;
+}
+.match-card-match-status {
+  font-family: 'Bree Serif';
+  font-size: 13px;
+  font-weight: 500;
+}
+.lost {
+  color: red;
+}
+.won {
+  color: green;
+}
